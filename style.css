@@ -7,3 +7,21 @@
     list-style-type: none;
     font-family: 'Cormorant Garamond', sans-serif
 }
+
+html {
+    font-size: 62.5%;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /* Use position relative to position sections 
+    according to the parent element */
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
